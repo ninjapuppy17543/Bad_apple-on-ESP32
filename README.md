@@ -4,3 +4,6 @@ mkdir frames
 .\ffmpeg.exe -i badapple.mp4 -vf "fps=15,scale=128:96,format=gray" frames/frame_%05d.png
 
 That prints out all the frames (there should be 3287 pngs). At a size of 96:128
+
+FFMPEG IS REQUIRED TO RUN THIS FILE!
+The python code also has to be inside the same folder as everything.
